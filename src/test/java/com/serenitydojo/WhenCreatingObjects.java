@@ -17,8 +17,8 @@ public class WhenCreatingObjects {
         Dog fido = new Dog("Fido","Bone", 5);
 
         String dogSound = "";
-        // TODO: implement a method in the Dog sound called makeNoise() that returns the sound a dog makes: "Woof", e.g.
-        // dogSound = fido.makeNoise();
+        // DONE: implement a method in the Dog sound called makeNoise() that returns the sound a dog makes: "Woof", e.g.
+        dogSound = fido.makeNoise();
 
         Assert.assertEquals(dogSound, "Woof");
     }
@@ -27,8 +27,8 @@ public class WhenCreatingObjects {
     public void whenADogGetsFed() {
         Dog fido = new Dog("Fido","Bone", 5);
 
-        // TODO: implement a method in the Dog sound called feed() that sets the isFed variable to true:
-        // fido.feed();
+        // DONE: implement a method in the Dog sound called feed() that sets the isFed variable to true:
+        fido.feed();
 
         Assert.assertTrue(fido.isFed());
 
